@@ -84,3 +84,6 @@ C:\Users\Ivan\Desktop\EasyBike\EasyBike\EasyBike\bin\Microsoft.Owin.Security.Mic
 C:\Users\Ivan\Desktop\EasyBike\EasyBike\EasyBike\obj\Debug\EasyBike.csprojResolveAssemblyReference.cache
 C:\Users\Ivan\Desktop\EasyBike\EasyBike\EasyBike\obj\Debug\EasyBike.dll
 C:\Users\Ivan\Desktop\EasyBike\EasyBike\EasyBike\obj\Debug\EasyBike.pdb
+C:\Users\Ivan\Desktop\R&D\EasyBike-beta\EasyBike\obj\Debug\EasyBike.csprojResolveAssemblyReference.cache
+C:\Users\Ivan\Desktop\R&D\EasyBike-beta\EasyBike\obj\Debug\EasyBike.dll
+C:\Users\Ivan\Desktop\R&D\EasyBike-beta\EasyBike\obj\Debug\EasyBike.pdb

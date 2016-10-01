@@ -1,19 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 using System.Data.Entity;
+using DataAccess.Logic;
+using Newtonsoft.Json;
 using Domain.ViewModels.Administration;
 using Domain.Models;
-using DataAccess.Logic;
 using Domain.ViewModels;
-using Newtonsoft.Json;
 
 namespace DataAccess.DbAccess
 {
     public class BikeQueries
     {
-        internal static AdminBikesView GetAll()
+        public static AdminBikesView GetAll()
         {
             using (Baza db = new Baza())
             {

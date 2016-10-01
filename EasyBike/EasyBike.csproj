@@ -2132,16 +2132,6 @@
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\DataAccess\DataAccess\DataAccess.csproj">
-      <Project>{6810ac49-7e1d-472f-b567-3d288e1dff42}</Project>
-      <Name>DataAccess</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Domain\Domain\Domain.csproj">
-      <Project>{5b20aea1-0a69-4fc7-8100-c2ec0c66e903}</Project>
-      <Name>Domain</Name>
-    </ProjectReference>
-  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -82,3 +82,6 @@ C:\Users\Ivan\Desktop\EasyBike\DataAccess\DataAccess\bin\Microsoft.Owin.Security
 C:\Users\Ivan\Desktop\EasyBike\DataAccess\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
 C:\Users\Ivan\Desktop\EasyBike\DataAccess\DataAccess\obj\Debug\DataAccess.dll
 C:\Users\Ivan\Desktop\EasyBike\DataAccess\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\Ivan\Desktop\R&D\EasyBike-beta\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Ivan\Desktop\R&D\EasyBike-beta\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Ivan\Desktop\R&D\EasyBike-beta\DataAccess\obj\Debug\DataAccess.pdb
