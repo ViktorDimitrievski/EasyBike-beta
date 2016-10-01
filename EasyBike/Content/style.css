@@ -1,0 +1,37 @@
+
+#gmap {
+    width: 100%;
+    height: 500px;
+}
+
+#smallLogo {
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 50px;
+    height: 50px;
+}
+
+.btn-group{
+    color:white;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    
+}
+#search {
+    width: 100%;
+    
+}
+
+
+
+.btnButtom {
+   background-color: #404040;
+   color: white;
+}
+.form-inline  {
+    padding-top: 20px;
+    padding-right:10px;
+    padding-left:0px;
+}

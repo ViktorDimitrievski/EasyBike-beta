@@ -1,0 +1,81 @@
+/* Paddings */
+.pl20 { padding-left:20px;}
+.pl10 { padding-left:10px;}
+.padding100 {padding:100px;}
+.plr0 { padding-left:0px; padding-right:0px;}
+.plr100 { padding-left:100px; padding-right:100px;}
+.plr30 { padding-left:30px; padding-right:30px;}
+.plr15 { padding-left:15px; padding-right:15px;}
+.plr40 { padding-left:40px; padding-right:40px;}
+.plr60 { padding-left:60px; padding-right:60px;}
+.pb30 { padding-bottom:30px;}
+.pr10{ padding-right:10px;}
+.pl0 { padding-left:0px !important;}
+.pt5 { padding-top:5px !important }
+.pt30 { padding-top:30px;}
+.pb0 { padding-bottom:0px !important}
+.pt50 { padding-top:50px;}
+.pl30 { padding-left:30px;}
+.pr30 {padding-right:30px;}
+.pt30 { padding-top:30px; }
+.p0 { padding:0; }
+/* Margins */
+.ml20 { margin-left:20px !important;}
+.ml10 { margin-left:10px !important;}
+.ml15 { margin-left:15px !important;}
+.mr4 { margin-right:4px !important;}
+.mr20 { margin-right:20px !important;}
+.mr10 { margin-right:10px !important;}
+.mt4 { margin-top:4px;}
+.mt7 { margin-top:7px;}
+.mb10 { margin-bottom:10px;}
+.mb5 { margin-bottom:5px;}
+.mt10 { margin-top:10px  !important;}
+.mt20 { margin-top:20px  !important;}
+.ml-auto { margin-left:auto; }
+.mr-auto { margin-right:auto;}
+.mb20 { margin-bottom:20px; }
+.mb30 { margin-bottom:30px; }
+.mt30 { margin-top:30px; }
+.mb0 { margin-bottom:0px !important }
+.mt0 { margin-top:0px !important }
+.m0 { margin:0px;}
+.mr0 { margin-right: 0px !important;}
+.nmlr { margin-left:0px !important; margin-right:0px !important; }
+
+
+/* Font sizes */
+.fs25 { font-size:25px !important;}
+.fs15 { font-size:15px !important;}
+.fs20 { font-size:20px !important;}
+
+/* Line Heights */
+.lh-initial { line-height:initial !important}
+.lh1-3 { line-height:1.1 !important}
+.lh29 { line-height:29px !important;}
+
+
+/* Widths */
+.w200 { line-height:29px !important;}
+
+
+/* Other */
+.tRight { text-align:right }
+.bold { font-weight:bold}
+.no-deco { text-decoration:none !important }
+.boldish { font-weight:500}
+.opacity9 { opacity:0.9}
+.fLeft { float:left; }
+.cursor-hand { cursor:pointer }
+.border-bottom-grey { border-bottom:2px solid #eee}
+.height-initial { height:initial}
+.ws-normal { white-space:normal !important}
+.nb { border:0px !important; }
+
+
+/*colors*/
+.orange { color:orange !important}
+.zolta { color:#ffcc00 !important }
+.darkgrey { color:#333}
+
+

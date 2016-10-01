@@ -1,0 +1,135 @@
+﻿.save-btn { 
+    width: 100% !important; 
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.image-wraper { margin-right: 5px; margin-bottom: 5px; }
+.del-icon { position: absolute; top: 0px; right: 0px; }
+.my-fa-times { background-color: #d20000; color: white; padding: 4px; cursor: pointer; }
+.left { position: relative; float: left !important; }
+.h100 { height: 100px; }
+
+.w30 { width: 30px !important; }
+.w50 { width: 50px !important; }
+.w200 { width: 200px !important; }
+.w100 { width: 100px !important; }
+.w150 { width: 150px !important; }
+.float-e-margins .btn {
+    margin-bottom:0px !important;
+}
+.btn-success.active {
+    background-color: #1ab394 !important;
+    border-color: #1ab394 !important;
+}
+.btn-group { margin-bottom: 2px !important;}
+.app-btn {
+    font-weight: bold;
+    font-size: 12px;
+}
+.header-btn {    
+    font-size: 12px;
+    font-weight: bold;
+}
+.btn-search {    
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#map-canvas {
+    min-height:350px;
+}
+.realestate-image-holder {
+    display: inline-block !important;
+    position:relative;
+}
+.realestate-image-holder:first-child {
+    padding:0px;
+}
+
+.action-group {
+    position: absolute !important;
+    right: 2px;
+    background: #d20000;
+    padding: 2px 4px !important;
+    top: 0px;
+}
+.bg-red { background-color:#d20000 !important; }
+.nmp { margin: 0px !important; padding: 0px !important }
+.RealestatePhoto {
+    height:100px;
+}
+.photo-style {
+    height:100px;
+}
+
+.action-ul li a {
+    padding: 0 0 0 0;
+    text-align: center;
+    margin: 0;
+}
+
+div.dataTables_wrapper div.dataTables_length select {
+    padding: 0px;
+    height: 23px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.nav > li > a {
+    font-weight: 700;
+    padding: 8px 10px 8px 17px;
+    font-size:11px;
+    text-transform:uppercase;
+}
+.menu-hr { margin:10px 0 10px 0; }
+
+.form-control, .single-line { padding:3px 6px; height:26px;}
+.form-horizontal .control-label { height:26px; padding-top:2px; font-size:12px; padding-right:0px;}
+.form-group { margin-bottom:5px;}
+.dataTable thead { background-color:#eee; font-weight:600}
+.upload-file { line-height:26px;}
+
+.input-group-addon { padding:3px 6px;}
+.page-subheader {
+    margin: 15px 12px 6px 7px;
+    display: block;
+    font-weight: bold;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 3px;
+    font-size: 14px;
+}
+
+.project-list table tr td { padding:8px 10px;}
+.table { border:1px solid #e7eaec}
+.input-group-addon { padding:3px 6px;}
+.form-horizontal .checkbox ~ .btn-group a { padding:2px 6px !important;}
+.chosen-container-single .chosen-single { line-height:20px;}
+.legend {
+    display:none;
+}
+.headerTitle {
+    display: inline-block;
+    line-height: 54px;
+    margin-left: 10px;
+}
+.profile-img {
+    width: 60px;
+}
+
+.menu-analythics { background-color:#1ab394; color:White !important }
+.menu-analythics a { background-color:#1ab394; color:White !important }
+.menu-analythics a:hover { background-color:#1ab394 !important; color:White !important }
+.menu-analythics ul li a { background-color:#293846 !important; font-size:10px !important; color:#a7b1c2 !important; padding:7px 0px 5px 15px }
+.profile-dropdown-menu { left:0px; top:100%; }
+.profile-logout { background-color: white; border: none; padding: 0px 0px 10px 24px; }
+
+@media (max-width: 991px){ 
+    .form-horizontal .control-label { text-align:left; height:inherit; padding-bottom:2px;}
+}
+
+.project-search {
+        margin-top: 4px;
+        padding: 4px 0px;
+}

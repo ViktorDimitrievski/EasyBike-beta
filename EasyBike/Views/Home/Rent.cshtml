@@ -1,0 +1,21 @@
+﻿@model Domain.ViewModels.RentView
+
+@{
+    ViewBag.Title = "Rent";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container main">
+    <div class="row">
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 col-md-offset-3 col-lg-offset-4 col-xl-offset-4" id="rentMe-form">
+            <h4 class="titles">Enter BIKE CODE</h4>
+@using (Html.BeginForm("Rent", "Home", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+            <input id="RentMeCode" class="form-control" name="Model.BikeCode" placeholder="# # # #" type="text" value="" aria-describedby="sizing-addon1">
+            <br>
+            <button type="submit" class="btn btn-success btn-block">COUNTINUE</button>
+}
+        </div>
+    </div>
+</div>
+

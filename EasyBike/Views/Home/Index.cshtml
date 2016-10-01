@@ -1,0 +1,140 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<header>
+    <div class="container-fluid" id="banner">
+        <div id="loadPageImage">
+            <div class="col-xs-12 col-md-6 col-md-offset-3">
+                <img src="/img/LogoLoadPage.png" alt="loadPage" id="logoLoadPage">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-offset-2 col-md-offset-3 col-lg-offset-4 col-xs-12 col-sm-10 col-lg-3 col-md-6 ">
+                <img src="/img/logo-middle-header.png" id="logoMainPage">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-offset-3 col-xs-12 col-sm-12 col-md-12 col-lg-6 ">
+                <div class="row" id="buttonsStart" style="display: block;">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <a href="/Account/Login">
+                            <button type="button" class="btn btn-login btn-lg btn-block">LOG IN</button>
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <a href="/Account/Register">
+
+                            <button type="button" class="btn btn-success btn-lg btn-block">SIGN UP</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-2 col-xs-offset-10">
+                <a href="/Home/Rent" id="rentCircleFixed"><i class="fa fa-bicycle fa-2x"></i></a>
+            </div>
+        </div>
+    </div>
+
+</header>
+<section class="sections">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-lg-4 col-xl-4">
+                <h1>How it works</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-lg-4 col-lg-4 howitwork">
+                <img src="/img/How-It-Works/pick.png" alt="Pick up bike">
+                <h2>PICK</h2>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-lg-4 col-lg-4 howitwork">
+                <img src="/img/How-It-Works/ride.png" alt="Pick up bike">
+                <h2>RIDE</h2>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-lg-4 col-lg-4 howitwork">
+                <img src="/img/How-It-Works/drop.png" alt="Pick up bike">
+                <h2>DROP</h2>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="sections">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-lg-12 col-xl-12">
+                <h1>Who is it for?</h1>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-3 col-xl-3 whoisit">
+                <img src="/img/Who-Is-It-For/residential.png" width="263px" height="185px">
+                <h3>Residential</h3>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-lg-3 col-xl-3 whoisit">
+                <img src="/img/Who-Is-It-For/municipalities.png" width="263px" height="185px">
+                <h3>Municipalities</h3>
+            </div>
+
+            <div class="col-xs-12 col-sm-6  col-lg-3 col-xl-3 whoisit">
+                <img src="/img/Who-Is-It-For/universities.png" width="263px" height="185px">
+                <h3>Universities</h3>
+            </div>
+
+            <div class="col-xs-12 col-sm-6  col-lg-3 col-xl-3 whoisit">
+                <img src="/img/Who-Is-It-For/corporate.png" width="263px" height="185px">
+                <h3>Corporate</h3>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section class="sections">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-lg-4 col-xl-4">
+                <h1>Locations</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-lg-4 col-xl-4 city">
+                <a href="#"><img src="/img/city/bitola.jpg" class="img-fluid"alt="Bitola"></a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-lg-4 col-xl-4 city">
+                <a href="#"><img src="/img/city/skopje.jpg" class="img-fluid" alt="Skopje"></a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-lg-4 col-xl-4 city">
+                <a href="#"><img src="/img/city/ohrid.jpg" class="img-fluid"alt="Ohrid"></a>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+<section class="sections">
+    <div class="container">
+        <div class="col-xs-12 col-sm-12 col-lg-12 col-xl-12">
+            <h1>Ride safely</h1>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-4 col-sm-12 col-lg-4 col-xl-4 rule">
+                <img src="/img/follow-the-rules.png" class="img-fluid">
+                <p>Yield to pedestrians. Stop at all red lights and stop signs. Ride in the direction of traffic. Use the grip bell to signal your presence. Do not wear more than one earphone while riding.</p>
+            </div>
+            <div class="col-xs-12 col-md-4 col-sm-12 col-lg-4 col-xl-4 rule">
+                <img src="/img/tips-for-turns.png" class="img-fluid">
+                <p>Use hand signals to let drivers and other cyclists know your intention to turn or to stop. Don’t turn or change lanes without knowing the position of the cars and bikes around you.</p>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 rule">
+                <img src="/img/whear-helmet.png" class="img-fluid">
+                <p>Wear a helmet whenever you ride. Always buckle the strap. Replace your helmet after any crash and whenever you see signs of damage. Avoid these common helmet mistakes</p>
+            </div>
+        </div>
+    </div>
+</section>
+

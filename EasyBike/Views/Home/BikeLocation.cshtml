@@ -1,0 +1,29 @@
+﻿@model Domain.ViewModels.LocationViewModel
+
+@{
+    ViewBag.Title = "BikeLocation";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="/Content/style.css" rel="stylesheet" />
+<div class="container-fluid">
+    <div class="row">
+        <div class="search-wrapper">
+            <div class="col-xs-10 col-md-10">
+                @Html.DropDownList("Model.CityID", new SelectList(Model.Cities, "ID", "Name"), "Choose city", new { @class = "form-control", id = "select_city" })
+            </div>
+            <div class="col-xs-2 col-md-2">
+                <button type="button" onclick="GetLocations(this)" class="btn  btn-info"><i class="fa fa-search" aria-hidden="true" id="searchBtn"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12 col-md-12 col-xl-12">
+            <div class="embed-responsive-item" id="gmap" style="margin-bottom: 194px;">
+
+            </div>
+        </div>
+    </div>
+  
+</div>
+

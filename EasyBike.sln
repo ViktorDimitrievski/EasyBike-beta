@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyBike", "EasyBike\EasyBike.csproj", "{583A1E61-7598-4322-A7ED-F91A665D99D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "..\Domain\Domain\Domain.csproj", "{5B20AEA1-0A69-4FC7-8100-C2EC0C66E903}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "..\DataAccess\DataAccess\DataAccess.csproj", "{6810AC49-7E1D-472F-B567-3D288E1DFF42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{583A1E61-7598-4322-A7ED-F91A665D99D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{583A1E61-7598-4322-A7ED-F91A665D99D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{583A1E61-7598-4322-A7ED-F91A665D99D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{583A1E61-7598-4322-A7ED-F91A665D99D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B20AEA1-0A69-4FC7-8100-C2EC0C66E903}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B20AEA1-0A69-4FC7-8100-C2EC0C66E903}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B20AEA1-0A69-4FC7-8100-C2EC0C66E903}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B20AEA1-0A69-4FC7-8100-C2EC0C66E903}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6810AC49-7E1D-472F-B567-3D288E1DFF42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6810AC49-7E1D-472F-B567-3D288E1DFF42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6810AC49-7E1D-472F-B567-3D288E1DFF42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6810AC49-7E1D-472F-B567-3D288E1DFF42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

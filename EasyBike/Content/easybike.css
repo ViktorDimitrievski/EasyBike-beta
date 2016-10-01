@@ -1,0 +1,1128 @@
+﻿/* GLOBAL CSS SETTINGS 
+1. If you want to style button you need to use btn class and if you need new look of button please create class .btn-nameOfButton
+2. For using a class you have already defind color for a link and for hover & focus we need only for visited link class
+3. Importet google font Roboto and font-weight can be used is 300 400 500 700 
+4. 
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700&subset=latin,cyrillic);
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ECECEC;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    color: #000;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0.2px;
+    color: #797979;
+}
+
+a {
+    color: #01C8E5;
+    text-decoration: none;
+}
+
+    a:hover,
+    a:focus {
+        color: #009EA1;
+        text-decoration: none;
+        -o-transition: all .3s;
+        -moz-transition: all .3s;
+        -webkit-transition: all .3s;
+        -ms-transition: all .3s;
+        transition: all .3s;
+    }
+
+.btn {
+    margin: 0;
+    vertical-align: middle;
+    border: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    text-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -ms-transition: all .3s;
+    transition: all 0.5s;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #3AAE68;
+    outline: #3AAE68 solid 3px;
+}
+
+    .btn-success:hover {
+        color: #3AAE68;
+        background-color: #fff;
+        outline: #3AAE68 solid 3px;
+    }
+
+.btn-menu {
+    color: #fff;
+    background-color: transparent;
+    font-size: 25px;
+    margin: 5px 0px;
+    position: fixed;
+    z-index: 500;
+}
+
+    .btn-menu:hover {
+        color: #EFEFEF;
+    }
+
+.btn-close {
+    margin-top: 12px;
+    margin-left: 30px;
+    background-color: whitesmoke;
+    outline-color: whitesmoke;
+    color: #01c8e5;
+}
+
+.btn-plus {
+    color: #fff;
+    background-color: #3AAE68;
+    width: 70px;
+    height: 50px;
+}
+
+.btn-minus {
+    color: #fff;
+    background-color: red;
+    width: 70px;
+    height: 50px;
+}
+
+.btn-login {
+    color: #fff;
+    background-color: #01c8e5;
+    outline: #01c8e5 solid 3px;
+    transition: all 0.3;
+}
+
+    .btn-login:hover {
+        color: #01c8e5;
+        background-color: #fff;
+        outline: #01c8e5 solid 3px;
+    }
+
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=number],
+input[type=tel],
+textarea.style-textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #909090;
+    border-radius: 0;
+    outline: none;
+    height: 48px;
+    width: 100%;
+    font-size: 16px;
+    margin: 0 0 15px 0;
+    padding: 0;
+    box-shadow: none;
+    box-sizing: content-box;
+    transition: all .3s;
+}
+
+    input[type=text]:focus:not([readonly]),
+    input[type=password]:focus:not([readonly]),
+    input[type=email]:focus:not([readonly]),
+    input[type=tel]:focus:not([readonly]),
+    input[type=number]:focus:not([readonly]),
+    textarea.style-textarea:focus:not([readonly]) {
+        border-bottom: 1px solid #007D7A;
+        box-shadow: 0 1px 0 0 #009EA1;
+    }
+
+select {
+    border: none;
+    color: #55595c;
+    background-color: transparent;
+    border-bottom: 1px solid #909090;
+    border-radius: 0;
+    display: block;
+    width: 100%;
+    height: 48px;
+    padding: 0;
+    margin: 0 0 15px 0;
+    font-size: 16px;
+    line-height: 1.5;
+    outline: none;
+    box-shadow: none;
+    box-sizing: content-box;
+    transition: all .3s;
+}
+
+    select:focus:not([readonly]) {
+        border-bottom: 1px solid #007D7A;
+        box-shadow: 0 1px 0 0 #009EA1;
+    }
+
+
+    /*option {
+    clear: both;
+    color: rgba(0, 0, 0, 0.87);
+    cursor: pointer;
+    min-height: 50px;
+    line-height: 1.5rem;
+    width: 100%;
+    text-align: left;
+    text-transform: none;
+}*/
+
+    select > option {
+        height: 48px;
+        width: 100%;
+        font-size: 18px;
+        display: block;
+        transition: all .3s;
+    }
+
+
+/******************************************* VIKTOR CSS **********************************************/
+
+.main {
+    text-align: center;
+    background-color: #f7f7f7;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 100px 0px;
+}
+
+.titles {
+    color: #fff;
+    background-color: #009EA1;
+    height: auto;
+    margin: -20px -20px 20px -20px;
+    padding: 10px 0px;
+}
+
+    .titles > h4 {
+        color: #fff;
+    }
+
+    .titles > p {
+        color: #fff;
+        text-decoration: underline;
+    }
+
+
+/*#login-form {
+    text-align: center;
+    background-color: #f7f7f7;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 50px
+}
+
+.login-header {
+    color: #fff;
+    background-color: #009EA1;
+    height: auto;
+    margin: -20px -20px 20px -20px;
+    padding: 10px 0px;
+}
+*/
+
+.login-footer {
+    margin-top: 25px;
+    font-size: 12px;
+}
+
+#link-forgot-password {
+    text-align: right;
+}
+
+#link-create-account {
+    text-align: left;
+}
+
+    #link-forgot-password:hover,
+    #link-create-account:hover {
+        text-decoration: underline;
+    }
+
+
+/*#rentMe-form {
+    height: 200px;
+    text-align: center;
+    background-color: #f7f7f7;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 50px
+}
+
+#service-form {
+    text-align: center;
+    background-color: #f7f7f7;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 50px
+}*/
+
+.form-control {
+    border-radius: 0px;
+}
+
+.input-group-addon {
+    border-radius: 0px;
+}
+
+.input-group {
+    margin: 0px 0px;
+}
+
+#RentMeCode,
+input[type="number"]::-webkit-input-placeholder {
+    font-size: 22px;
+    letter-spacing: 5px;
+    color: #007D7A;
+    height: 45px;
+    text-align: center;
+}
+
+#rent-options {
+    margin-top: 30px;
+}
+
+.rent-select-option {
+    text-align: center;
+    color: #000;
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+    .rent-select-option > h5 > i {
+        color: #007D7A;
+    }
+
+.rent-durration-option {
+    text-align: center;
+    margin-top: 10px;
+}
+
+    .rent-durration-option > input[type="number"] {
+        height: 50px;
+        width: 100px;
+        text-align: center;
+        vertical-align: middle;
+        margin: 0px -5px 0px -5px;
+        border: 0px;
+    }
+
+
+/*#sign-up {
+    background-color: #f7f7f7;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+#signup-header {
+    background-color: #009EA1;
+    height: auto;
+    margin: -20px -20px 20px -20px;
+    padding: 20px;
+}
+
+#signup-header > h4 {
+    color: #fff;
+}
+
+#signup-header > p {
+    text-decoration-line: underline;
+    color: #fff;
+}
+*/
+
+.rule {
+    text-align: center;
+    padding: 20px;
+    transition: 0.5s all;
+}
+
+    .rule:hover {
+        -moz-box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.3);
+        -webkit-box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.3);
+        box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.3);
+        /*- moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);*/
+    }
+
+.whoisit {
+    text-align: center;
+}
+
+    .whoisit > h3 {
+        padding-top: 10px;
+    }
+
+.sections {
+    margin: 50px 0px;
+}
+
+.city {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.howitwork {
+    text-align: center;
+    margin: 10px 0px;
+}
+
+
+/*h1:after{
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 1%;
+    right: 0%;
+    content: "";
+    height: 3px;
+    background: url('../img/bg-dotted-line.png') repeat-x;
+}*/
+
+h1:after {
+    content: "";
+    background: url(../img/hr-dark.png) no-repeat scroll;
+    display: block;
+    height: 10px;
+    margin: 15px 0px 0px 0px;
+    padding: 0;
+    position: relative;
+    width: 85px;
+}
+#Payment_method h1:after{
+    background:none;
+}
+
+#or {
+    color: #fff;
+    background: orange;
+    /* text-align: center; */
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 25px;
+    margin-top: 25px;
+    font-size: 32px;
+}
+.or-style{
+    padding-left:50px;
+}
+
+
+
+
+/***********************************DEJAN CSS****************************/
+
+/*SEARCH BAR IN RENT BIKE MAPA*/
+
+.search-wrapper {
+    margin-top: 50px;
+}
+
+#searchBtn {
+    padding: 10px;
+}
+/*--------------------
+2. Navbar
+--------------------*/
+
+#navTOP {
+    background-color: #292c2f;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    z-index: 1000;
+}
+
+
+/* The side navigation menu */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    z-index: 5000;
+    /*        transition: 0.5s; */
+}
+
+#user_meil {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+
+/* The navigation menu links */
+
+.sidenav li a {
+    font-family: sans-serif;
+    padding: 5px 5px 5px 8px;
+    text-decoration: none;
+    text-align: justify;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+
+/*border bottom for better disign*/
+
+.sidenav li {
+    border-bottom: 1px solid rgba(64, 64, 64, 0.07);
+}
+
+.sidenav ul {
+    margin-left: -35px;
+    margin-top: 20px;
+    list-style: none;
+}
+
+
+    /*icons in nav menu (home, about , service.....)*/
+
+    .sidenav ul li a i {
+        margin-right: 15px;
+        font-size: 20px;
+        text-align: center;
+        background-color: transparent;
+        color: #818181;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        padding: 5px;
+    }
+
+
+/* When you mouse over the navigation links, change their color */
+
+.sidenav a:hover,
+.offcanvas a:focus {
+    color: #01C8E5;
+}
+
+
+/* Position and style the close button (top right corner) 
+
+#closebtn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: #01c8e5;
+    font-size: 25px !important;
+    margin-left: 55px;
+    background-color: whitesmoke;
+    outline-color: whitesmoke;
+}
+*/
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+}
+
+#profile_img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+
+/*--------------------
+3. Header
+--------------------*/
+
+#banner {
+    background-image: url(../img/bikeBlurVintage.png);
+    background-size: cover;
+    background-position: 50% 25%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 664px;
+}
+
+#logoMainPage {
+    margin: 90px 0px 30px 100px;
+}
+
+
+/*fixed button rent now bottom right*/
+
+#rentCircleFixed {
+    position: fixed;
+    right: 3%;
+    bottom: 3%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+    background-color: #3AAE68;
+    padding: 5px;
+    padding-top: 10px;
+    text-align: inherit;
+    box-shadow: 3px 3px 10px #222;
+    z-index: 3000;
+}
+
+
+/*load page image*/
+
+#loadPageImage {
+    position: absolute;
+    background-color: white;
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+    margin-left: 0px;
+    top: 0px;
+    left: 0px;
+    z-index: 5000;
+}
+
+#logoLoadPage {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 5000;
+}
+
+
+/*@media screen and (max-width: 450px) {
+    #buttonsStart {
+        margin-top: 200px;
+    }
+    .btn-signup {
+        margin-top: 10px;
+    }
+    #logoLoadPage {
+        margin-top: 50%;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        z-index: 5000;
+    }
+    #logoMainPage {
+        margin-top: 30%;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        margin-bottom: -200px;
+    }
+}*/
+
+
+/*--------------------
+4.ABOUT
+--------------------*/
+
+#about {
+    width: 100%;
+    height: 300px;
+}
+
+
+/*-------------------
+CITY section
+---------------------*/
+
+#citySection {
+    background-color: white;
+}
+
+
+/*-----------------
+    FOOTER
+------------------*/
+
+.footer {
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
+    padding: 45px 50px;
+    position: relative;
+    bottom: 0;
+}
+
+    .footer .footer-left p {
+        color: #8f9296;
+        font-size: 14px;
+        margin: 0;
+    }
+
+
+    /* Footer links */
+
+    .footer p.footer-links {
+        font-size: 18px;
+        font-weight: bold;
+        color: #ffffff;
+        margin: 0 0 10px;
+        padding: 0;
+    }
+
+        .footer p.footer-links a {
+            display: inline-block;
+            line-height: 1.8;
+            text-decoration: none;
+            color: inherit;
+        }
+
+    .footer .footer-right {
+        float: right;
+        margin-top: 6px;
+        max-width: 180px;
+    }
+
+        .footer .footer-right a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background-color: #33383b;
+            /* border-radius: 2px; */
+            font-size: 20px;
+            color: #01C8E5;
+            text-align: center;
+            /* line-height: 35px; */
+            /* margin-left: 3px; */
+            padding-top: 10px;
+        }
+
+            .footer .footer-right a:hover {
+                color: white;
+            }
+
+
+/*
+@media (max-width: 600px) {
+    .footer .footer-left,
+    .footer .footer-right {
+        text-align: center;
+    }
+    .footer .footer-right {
+        float: none;
+        margin: 0 auto 15px;
+    }
+    .footer .footer-left p.footer-links {
+        line-height: 1.8;
+    }
+}
+*/
+
+
+/*--------------------------Riste CSS--------------------------------*/
+
+
+/*Background*/
+
+#mainSection {
+    background-color: f7f7f7;
+    background-size: cover;
+    background-position: 50% 25%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+
+/*Profile Info*/
+
+.profile {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#profileInfo {
+    margin-top: 15px;
+    /*border: 2px solid #000;*/
+    text-align: center;
+}
+
+#profPic {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin-bottom: 4px;
+    /*border: 4px solid #292c2f;*/
+}
+
+#userInfo {
+    text-align: left;
+    margin-top: 3px;
+    padding-top: 10px;
+    padding-left: 16%;
+    /*background-color: #f7f7f7;*/
+    /*-moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);*/
+    height: 130px;
+}
+
+
+/*Time Remaning*/
+
+#timer {
+    height: 30%;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#timeDiv {
+    text-align: center;
+    height: 40px;
+    padding-top: 8px;
+    outline: 2px solid gray;
+    background-color: #3AAE68;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+
+/*Statistics*/
+
+#statistic {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.statisticDiv {
+    width: 100%;
+    height: 60px;
+    padding-top: 1rem;
+    margin-bottom: 15px;
+    background-color: #009EA1;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+
+/*Chart Section*/
+
+#chartContainer {
+    margin: 25px 0px;
+    height: 250px;
+    margin-bottom: -25px;
+}
+
+
+/*************************** PRICING TABLES *****************************************/
+
+#pricing-table {
+    margin: 50px auto;
+    text-align: center;
+    width: 892px;
+    /* total computed width = 222 x 3 + 226 */
+}
+
+#pricing-table .plan {
+    font-size: 12px;
+    text-shadow: 0 1px rgba(255, 255, 255, .8);
+    background: #fff;
+    border: 1px solid #ddd;
+    color: #333;
+    padding: 20px;
+    width: 250px;
+    /* plan width = 180 + 20 + 20 + 1 + 1 = 222px */
+
+    position: relative;
+    margin-left: 15px;
+    margin-bottom: 8px;
+}
+
+    #pricing-table #most-popular {
+        z-index: 2;
+        top: -13px;
+        border-width: 3px;
+        padding: 30px 20px;
+        border-radius: 5px;
+        box-shadow: 20px 0 10px -10px rgba(0, 0, 0, .15), -20px 0 10px -10px rgba(0, 0, 0, .15);
+    }
+
+    #pricing-table .plan:nth-child(1) {
+        border-radius: 5px 0 0 5px;
+    }
+
+    #pricing-table .plan:nth-child(4) {
+        border-radius: 0 5px 5px 0;
+    }
+
+
+    /* --------------- */
+
+    #pricing-table h3 {
+        font-size: 20px;
+        font-weight: normal;
+        padding: 20px;
+        margin: -20px -20px 50px -20px;
+        background-color: #eee;
+        background-image: linear-gradient(#fff, #eee);
+    }
+
+    #pricing-table #most-popular h3 {
+        background-color: #ddd;
+        background-image: linear-gradient(#eee, #ddd);
+        margin-top: -30px;
+        padding-top: 30px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    #pricing-table .plan:nth-child(1) h3 {
+        border-radius: 5px 0 0 0;
+    }
+
+    #pricing-table .plan:nth-child(4) h3 {
+        border-radius: 0 5px 0 0;
+    }
+
+    #pricing-table h3 span {
+        display: block;
+       font-weight: 300;
+       font-size: 32px;
+        color: #777;
+        background: #fff;
+        border: 5px solid #fff;
+        height: 100px;
+        width: 100px;
+        margin: 10px auto -65px;
+        padding-top:30px;
+        border-radius: 100px;
+        box-shadow: 0 5px 20px #ddd inset, 0 3px 0 #999 inset;
+    }
+
+
+    /* --------------- */
+
+    #pricing-table ul {
+        margin: 20px 0 0 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    #pricing-table li {
+        border-top: 1px solid #ddd;
+        padding: 10px 0;
+    }
+
+
+    /* --------------- */
+
+    #pricing-table .signup {
+        position: relative;
+        padding: 8px 20px;
+        margin: 20px 0 0 0;
+        color: #fff;
+        /*    font: bold 14px Arial, Helvetica;*/
+        text-transform: uppercase;
+        text-decoration: none;
+        display: inline-block;
+        background-color: #72ce3f;
+        background-image: linear-gradient(#72ce3f, #62bc30);
+        border-radius: 3px;
+        text-shadow: 0 1px 0 rgba(0, 0, 0, .3);
+        box-shadow: 0 1px 0 rgba(255, 255, 255, .5), 0 2px 0 rgba(0, 0, 0, .7);
+    }
+
+        #pricing-table .signup:hover {
+            background-color: #62bc30;
+            background-image: linear-gradient(#62bc30, #72ce3f);
+        }
+
+        #pricing-table .signup:active,
+        #pricing-table .signup:focus {
+            background: #62bc30;
+            top: 2px;
+            box-shadow: 0 0 3px rgba(0, 0, 0, .7) inset;
+        }
+
+
+/* --------------- */
+
+.clear:before,
+.clear:after {
+    content: "";
+    display: table;
+}
+
+.clear:after {
+    clear: both;
+}
+
+.clear {
+    zoom: 1;
+}
+
+div > .plan > button.btn-success {
+    margin-top: 10px;
+}
+
+/***************************   MEDIA QUERIES ****************************************/
+
+
+/* Extra small devices (portrait phones, less than 34em)     IMPORTANT    */
+
+@media (max-width: 33.9em) {
+    .btn-login {
+        margin-bottom: 20px;
+    }
+
+    .sidenav {
+        padding-top: 15px;
+    }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+
+    #logoMainPage {
+        text-align: center;
+    }
+
+    .btn-signup {
+        margin-top: 10px;
+    }
+
+    .footer-right {
+        float: none;
+    }
+
+    .titles {
+        margin: 0px;
+    }
+
+    #logoMainPage {
+        margin: 90px 0px 30px 20px;
+    }
+    .plan{
+        width: 300px !important;
+        margin-left: 15px !important;
+    }
+}
+
+
+/* Small devices (landscape phones, less than 48em)*/
+
+@media (max-width: 47.9em) {
+    .footer .footer-left,
+    .footer .footer-right {
+        text-align: center;
+    }
+
+    .footer .footer-right {
+        float: none;
+        margin: 0 auto 15px;
+    }
+
+    .footer .footer-left p.footer-links {
+        line-height: 1.8;
+    }
+
+    .btn-login {
+        margin-bottom: 20px;
+    }
+
+    #logoMainPage {
+        margin: 90px 0px 30px 20px;
+    }
+}
+
+
+/* Medium devices (tablets, less than 62em)*/
+
+@media (max-width: 61.9em) {
+    .btn-login {
+        margin-bottom: 20px;
+    }
+
+
+}
+
+
+/* Large devices (desktops, less than 75em)*/
+
+@media (max-width: 74.9em) {
+
+ 
+}
+
+.btn-rent {
+    display: block;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.Pin {
+    background-color: #80bfff;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding-top: 8px;
+    margin-left: 8px;
+    padding-left: 5px;
+    text-align: inherit;
+    vertical-align: middle;
+    width: 35px;
+    height: 35px;
+    color: white;
+}

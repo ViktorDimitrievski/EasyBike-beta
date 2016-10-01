@@ -1,0 +1,115 @@
+﻿@using Domain.Models
+@using Domain.HelperModels
+@using DataAccess.Logic
+@{
+//var User1 = UserManager.getByUserName(HttpContext.Current.User.Identity.Name);
+}
+<nav class="navbar-default navbar-static-side" role="navigation">
+    <div class="sidebar-collapse">
+        <ul class="nav metismenu" id="side-menu">
+            <li class="nav-header">
+                <div class="dropdown profile-element">
+                    <span>
+                        <img alt="image" class="img-circle profile-img" @*src="@User1.Photos.getUserPhoto()"*@ />
+                    </span>
+                    <a data-toggle="dropdown" class="dropdown-toggle" area href="#">
+                        <span class="clear">
+                            <span class="block m-t-xs">
+                                <strong class="font-bold">@User.Identity.Name</strong>
+                            </span> <span class="text-muted text-xs block"><b class="caret"></b></span>
+                        </span>
+                    </a>
+                    <ul class="dropdown-menu profile-dropdown-menu animated fadeInRight m-t-xs">
+                        <li><a href="/backend/Account/MyProfile">Мој профил</a></li>
+                        <li class="divider"></li>
+                        @using (Html.BeginForm("LogOffBackend", "Account", new { ReturnUrl = "" }, FormMethod.Post, new { }))
+                        {  
+                            @Html.AntiForgeryToken()
+                            <li><input class="profile-logout" type="submit" value="Одјави ме" /></li>
+                        }
+                    </ul>
+                </div>
+                <div class="logo-element">
+                    AD+
+                </div>
+            </li>
+            <li class="@Html.IsSelected(controller: "AdminBike", action: "Index")">
+                <a href="/backend/AdminProjects/Index"><i class="fa fa-bicycle" aria-hidden="true"></i> <span class="nav-label">Велосипеди</span></a>
+            </li>
+            <li class="@Html.IsSelected(controller: "AdminUser", action: "Index")">
+                <a href="/backend/AdminUser/Index"><i class="fa fa-users" aria-hidden="true"></i> <span class="nav-label">Корисници</span></a>
+            </li>
+           @*@if (User.IsInRole("administrator") || User.IsInRole("superadmin"))
+           {
+            <li class="@Html.IsSelected(controller: "AdminRealestate")">
+                <a href="#"><i class="fa fa-building"></i><span class="nav-label">Недвижности</span><span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+                    <li>
+                        <a href="/backend/AdminRealestate/Index"><i class="fa fa-building"></i>Сите</a>
+                    </li>
+                    <li>
+                        <a href="/backend/AdminRealestate/IndexInactive"><i class="fa fa-building"></i> Необјавени</a>
+                    </li>
+                    <li>
+                        <a href="/backend/AdminRealestate/IndexRejected"><i class="fa fa-building"></i> Одбиени</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="@Html.IsSelected(controller: "AdminProjects", action: "Index")">
+                <a href="/backend/AdminProjects/Index"><i class="fa fa-industry"></i> <span class="nav-label">Проекти</span></a>
+            </li>
+
+            <li class="@Html.IsSelected(controller: "AdminPage", action: "PageIndex")">
+                <a href="/backend/AdminPage/PageIndex"><i class="fa fa-bars"></i> <span class="nav-label">Страници</span></a>
+            </li>
+            <li class="@Html.IsSelected(controller: "AdminPage", action: "ContentIndex")">
+                <a href="/backend/AdminPage/ContentIndex"><i class="fa fa-bars"></i> <span class="nav-label">Новости</span></a>
+            </li>*@
+            @*<li class="@Html.IsSelected(controller: "AdminBaners")">
+                <a href="/backend/AdminBaners/Index"><i class="fa fa-barcode"></i> <span class="nav-label">Банери</span></a>
+            </li>*@
+
+            
+            <hr class="menu-hr" />
+            @*<li class="@Html.IsSelected(controller: "AdminRealestateType")">
+                <a href="/backend/AdminRealestateType/Index"><i class="fa fa-server"></i> <span class="nav-label">Тип на недвижност</span></a>
+            </li>
+            <li class="@Html.IsSelected(controller: "AdminConstructionType")">
+                <a href="/backend/AdminConstructionType/Index"><i class="fa fa-server"></i> <span class="nav-label">Тип на конструкција</span></a>
+            </li>
+            <li class="@Html.IsSelected(controller: "AdminFileType")">
+                <a href="/backend/AdminFileType/Index"><i class="fa fa-server"></i> <span class="nav-label">Тип на документи</span></a>
+            </li>
+            <li class="@Html.IsSelected(controller: "AdminBanerPosition")">
+                <a href="/backend/AdminBanerPosition/Index"><i class="fa fa-laptop"></i> <span class="nav-label">Банер позиции</span></a>
+            </li>
+            <hr class="menu-hr" />
+            <li class="@Html.IsSelected(controller: "AdminApplication")">
+                <a href="/backend/AdminApplication/Basic"><i class="fa fa-database"></i> <span class="nav-label">Апликациски пром.</span></a>
+            </li>
+           }
+           else if (User.IsInRole("advertiser"))
+           {
+            <li class="@Html.IsSelected(controller: "AdminUser", action: "MyProfile")">
+                <a href="/Home/Index"><i class="fa fa-industry"></i> <span class="nav-label">Веб страница</span></a>
+            </li>
+            <li class="@Html.IsSelected(controller: "AdminRealestate", action: "MyRealEstates")">
+                <a href="/backend/AdminRealestate/MyRealEstates"><i class="fa fa-industry"></i> <span class="nav-label">Мои Недвижности</span></a>
+            </li>
+            <li class="@Html.IsSelected(controller: "AdminUser", action: "MyProfile")">
+                <a href="/backend/AdminUser/MyProfile"><i class="fa fa-industry"></i> <span class="nav-label">Мој Профил</span></a>
+            </li>
+           }*@
+        </ul>
+        
+    </div>
+</nav>
+
+
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+﻿@using DataAccess.Logic
+@model Domain.Models.RegisterViewModel
+
+@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+@using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="container main">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 col-md-offset-3 col-lg-offset-4 col-xl-offset-4">
+                <div class="titles">
+                    <h4>Create Free Account</h4>
+                    <p>Fill the form to get a bike</p>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="First Name..." name="Model.FirsName" class="form-control">
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Last Name..." name="Model.LastName" class="form-control">
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email..." name="Model.Email" class="form-control" id="email">
+                </div>
+
+                <div class="form-group">
+                    <input type="password" placeholder="Password..." name="Model.Password" class="form-control">
+                </div>
+                <div class="form-group">
+                    <input type="password" placeholder="Confirm password..." name="Model.ConfirmPassword" class="form-control">
+                </div>
+                <div class="form-group">
+                    <input type="tel" placeholder="Entel Mobile Number..." name="Model.PhoneNumber" class="form-control">
+                </div>
+
+                <fieldset class="form-group ">
+                    @Html.DropDownList("Model.City", new SelectList(CityManager.GetAll(), "ID", "Name"), "Choose city")
+                </fieldset>
+                <fieldset class="form-group ">
+                    @Html.DropDownList("Model.Sex", new SelectList(SexManager.GetAll(), "ID", "SexName"), "Gender")
+                </fieldset>
+
+                <button type="submit" class="btn btn-success btn-block">Sign me up!</button>
+            </div>
+            <!-- ovde zavrsuva kolonata-->
+        </div>
+        <!-- ovde zavrsuva routo na input polinjata-->
+    </div>
+    <!-- ovde zavrsuva kontejnerot-->
+}
+
